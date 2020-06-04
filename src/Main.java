@@ -51,7 +51,7 @@ public class Main {
         int size = sc.nextInt();
         int[] arr = new int[size];
         for (int i = 0; i < size; i++) {
-            arr[i] = random.nextInt(size);
+            arr[i] = random.nextInt(10000);
         }
         System.out.print("Array before sorted: ");
         main.display(arr);
